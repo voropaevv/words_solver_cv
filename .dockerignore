@@ -1,0 +1,6 @@
+images/screenshot_example_*
+notebooks
+client_*.py
+explanatory_media
+README.md
+.gitignore
