@@ -3,4 +3,5 @@ notebooks
 client_*.py
 explanatory_media
 README.md
-.gitignore
+.git*
+.DS_Store
