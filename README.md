@@ -16,5 +16,29 @@
 
 <img src="./explanatory_media/explanatory_gif_1.gif" title="" alt="Пример работы" data-align="center">
 
+### Тестирование
+
+Для проверки работы серверной части можно запустить файл `client_demo.py`.
+
+Демонстрация алгоритма нахождения слов и распознавания букв приведены в папке `notebooks`, где располагаются два jupyter notebook-а.
 
 ## Установка
+
+1. Скопируйте репозиторий проекта:
+
+```bash
+git clone https://github.com/voropaevv/words_solver_cv.git
+```
+
+2. Разверните и запустите Docker:
+
+```bash
+docker-compose up --build
+```
+
+3. Создайте Shortcut согласно схеме ниже:
+
+<img src="./explanatory_media/explanatory_picture_2.png" title="" alt="Схема shortcut-а" data-align="center">
+
+4. Скопируйте код из файла `client_iphone.py` в скрипт в приложении Pythonista по пути `/Socket/client.py`
+5. В скрипте `/Socket/client.py` необходимо поменять ip хоста, на котором запущен Docker.
